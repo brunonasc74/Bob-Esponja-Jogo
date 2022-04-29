@@ -10,7 +10,7 @@ body {
     line-height: 1.7rem;
     background-image: url(/images/bikini-bottom.jpg);
     background-color: #0083cc;
-    color: #fff;
+    color: #e7e7e7;
 }
 
 .container {
@@ -20,17 +20,17 @@ body {
 
 .logo img {
     display: block;
-    margin: 1% 37%;
-    max-width: 40%;
+    margin: 1% 40%;
+    max-width: 20%;
     height: auto;
 }
 
 header .container {
     /* width: 30%; */
     margin: auto;
-    background-color: #333;
+    background-color: #c74f17;
     padding: 20px;
-    border-radius: 10px;
+    border-radius: 5px;
 }
 
 header h1 {
@@ -45,6 +45,9 @@ main .container {
 main h2 {
     text-align: center;
     margin-bottom: 3%;
+    background-color: #c74f17;
+    padding: 10px;
+    border-radius: 5px;
 }
 
 main ul {
@@ -66,6 +69,12 @@ main ul li a {
 main li img {
     width: 200px;
     height: 200px;
-    border-radius: 5px;
+    border-radius: 50%;
     object-fit:cover;
+    transition: 250ms;
+}
+
+main li img:hover {
+    border-radius: 15%;
+    transition: 500ms;
 }
