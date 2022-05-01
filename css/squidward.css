@@ -1,16 +1,7 @@
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    text-decoration: none;
-}
+@import url(/css/style.css);
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 22px;
-    line-height: 2rem;
     background-color: #77b2f1; 
-    /* #fef82d */
     /* background-image: url(/images/spongebob-background.jpg); */
     color: #1d1d1d;
 }

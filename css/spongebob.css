@@ -1,18 +1,18 @@
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    text-decoration: none;
-}
+@import url(/css/style.css);
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 22px;
-    line-height: 2rem;
-    background-color: #fdf56c; 
-    /* #fef82d */
-    /* background-image: url(/images/spongebob-background.jpg); */
+    background-color: #feff00;
+    background-image: url(/images/751406.png);
     color: #1d1d1d;
+}
+
+.container  {
+    width: 60%;
+    margin: auto;
+    background-color: #fdf66ccb;
+    border: 5px solid #ffd900;
+    padding: 20px;
+    border-radius: 5px;
 }
 
 .logo img {
@@ -20,15 +20,6 @@ body {
     margin: 1% 44%;
     max-width: 10%;
     height: auto;
-}
-
-.container  {
-    width: 60%;
-    margin: auto;
-    background-color: #fdf56c;
-    border: 5px solid #ffd900;
-    padding: 20px;
-    border-radius: 5px;
 }
 
 header h1 {
