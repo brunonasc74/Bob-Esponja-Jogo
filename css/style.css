@@ -37,7 +37,7 @@ main button {
     transform: translate(-50%);
     font-size: 25px;
     padding: 3px 50px;
-    border: thin solid transparent;
+    border: 2px solid;
     border-radius: 25px;
     font-weight: bolder;
     font-family: 'Mukta', sans-serif;

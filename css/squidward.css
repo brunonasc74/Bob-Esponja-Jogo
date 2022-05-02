@@ -26,3 +26,16 @@ header h1 {
 main p {
     margin-bottom: 30px;
 }
+
+main button {
+    background-color: #c0d8cc;
+    border-color: #334258;
+    color: #334258;
+    transition: 200ms;
+}
+
+main button:hover {
+    background-color: #334258;
+    border-color: #c0d8cc;
+    color: #c0d8cc;
+}
