@@ -1,9 +1,9 @@
-@import url(style.css);
-@import url(media.css);
+@import url(./style.css);
+@import url(./media.css);
 
 body {
     background-color: #2b7d4f; 
-    background-image: url(/images/plankton-background.jpg);
+    background-image: url(../images/plankton-background.jpg);
     color: #e9e9e9;
 }
 

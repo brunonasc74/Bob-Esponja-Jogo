@@ -1,8 +1,8 @@
-@import url(style.css);
-@import url(media.css);
+@import url(./style.css);
+@import url(./media.css);
 
 body {
-    background-image: url(/images/bikini-bottom.jpg);
+    background-image: url(../images/bikini-bottom.jpg);
     background-color: #0083cc;
     color: #e7e7e7;
 }
