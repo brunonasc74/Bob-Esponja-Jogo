@@ -1,18 +1,9 @@
 @import url(/css/style.css);
 
 body {
+    color: #e9e9e9;
     background-color: #feff00;
-    background-image: url(/images/751406.png);
-    color: #1d1d1d;
-}
-
-.container  {
-    width: 60%;
-    margin: auto;
-    background-color: #fdf66ccb;
-    border: 5px solid #ffd900;
-    padding: 20px;
-    border-radius: 5px;
+    background-image: url(/images/spongebob-background.jpg);
 }
 
 .logo img {
@@ -22,19 +13,15 @@ body {
     height: auto;
 }
 
+.container  {
+    background-color: #000000c5;
+    border: 5px solid #38b2d1;
+}
+
 header h1 {
     text-align: center;
     margin-bottom: 10%;
 }
 main p {
     margin-bottom: 30px;
-}
-
-main button {
-    font-size: 25px;
-    padding: 5px 25px;
-    display: block;
-    margin: auto;
-    margin-top: 100px;
-    cursor: pointer;
 }

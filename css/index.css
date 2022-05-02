@@ -6,7 +6,7 @@ body {
     color: #e7e7e7;
 }
 
-.container {
+.container-1 {
     width: 60%;
     margin: auto;
 }
@@ -18,7 +18,7 @@ body {
     height: auto;
 }
 
-header .container {
+header .container-1 {
     /* width: 30%; */
     margin: auto;
     background-color: #c74f17;
@@ -31,7 +31,11 @@ header h1 {
     margin-bottom: 25px;
 }
 
-main .container {
+header p:nth-child(2) {
+    margin-bottom: 30px;
+}
+
+main .container-1 {
     margin-top: 3%;
 }
 
