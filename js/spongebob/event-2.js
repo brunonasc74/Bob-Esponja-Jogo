@@ -1,14 +1,9 @@
 const btn = document.querySelector('#btn');
 
-btn.addEventListener ('click', () => validate());
+btn.addEventListener ('click', () => validate(
+    'O que fazer?', 
+    'Esperar Lula Molusco acordar', 
+    'Caçar águas-vivas com Patrick', 
+    'spongebob-choice1-page1.html', 
+    'spongebob-choice2-page1.html'));
 
-function validate() {
-    let choice;
-    while (choice !== 1 && choice !== 2) {
-        choice = Number(prompt('O que fazer?\n\nDigite 1 para: Esperar Lula Molusco acordar\nDigite 2 para: Caçar águas-vivas com Patrick'));
-
-        (choice === 1) ? location.href = 'spongebob-choice1-page1.html' :
-        (choice === 2) ? location.href = 'spongebob-choice2-page1.html' :
-        alert("Favor digitar apenas '1' ou '2' dependendo da sua escolha.");
-    } 
-}
